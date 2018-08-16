@@ -4,6 +4,9 @@ function driversWithRevenueOver(drivers, revenue) {
 };
 
 function driverNamesWithRevenueOver(drivers, revenue) {
-  const filtered_drivers = driversWithRevenueOver(drivers, revenue);
-  return filtered_drivers.map(driver => driver.name);
+  // const filtered_drivers = driversWithRevenueOver(drivers, revenue);
+  // return filtered_drivers.map(driver => driver.name);
+  return drivers.map( function(driver) {
+    
+  });
 };
